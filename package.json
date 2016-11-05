@@ -1,0 +1,33 @@
+{
+    "name": "github-battle",
+    "version": "1.0.0",
+    "description": "React.js Program Fundamentals project",
+    "main": "index.js",
+    "repository": {
+        "url": "https://github.com/psamp/github-battle",
+        "type": "git"
+    },
+    "author": "psamp",
+    "license": "MIT",
+    "scripts": {
+        "start": "webpack-dev-server ---watch --inline --hot",
+        "prod": "webpack -p"
+    },
+    "dependencies": {
+        "react": "^15.3.2",
+        "react-dom": "^15.3.2",
+        "react-router": "^3.0.0"
+    },
+    "devDependencies": {
+        "babel-core": "^6.18.0",
+        "babel-loader": "^6.2.7",
+        "babel-preset-react": "^6.16.0",
+        "css-loader": "^0.25.0",
+        "html-webpack-plugin": "^2.21.0",
+        "node-sass": "^3.11.1",
+        "sass-loader": "^4.0.2",
+        "style-loader": "^0.13.1",
+        "webpack": "^1.13.1",
+        "webpack-dev-server": "^1.14.1"
+    }
+}
