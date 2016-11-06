@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router'
 import Skeleton from '../styles/skeleton.css'
 
-function Home () {
+export default () => {
   return (
     <div className={Skeleton['u-full-width']}>
       <h1>Github Battle</h1>
@@ -14,5 +14,3 @@ function Home () {
     </div>
   )
 }
-
-export default Home
